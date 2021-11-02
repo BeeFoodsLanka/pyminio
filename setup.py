@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/mmm1513/pyminio",
     packages=setuptools.find_packages(),
     install_requires=[
-        'minio <7.0.0, >=6.0.0',
+        'minio',
         'pytz',
         'cached-property',
         'attrdict',
@@ -33,6 +33,7 @@ setuptools.setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8'
+        'Programming Language :: Python :: 3.9'
     ],
     python_requires='>=3.6',
 )
